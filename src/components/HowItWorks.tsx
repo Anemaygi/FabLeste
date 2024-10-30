@@ -48,8 +48,8 @@ export const HowItWorks = () => {
         pode me ajudar?
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        O FabLab EACH tem como objetivo beneficiar a comunidade com a estrutura
+        para incentivar todos os tipos de criação!
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

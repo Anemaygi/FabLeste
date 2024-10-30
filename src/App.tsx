@@ -18,13 +18,13 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Sponsors />
       <About />
       <HowItWorks />
       <Services />
-      <Footer /> 
+      {/* <Footer />  */}
       <ScrollToTop />
     </>
   );
