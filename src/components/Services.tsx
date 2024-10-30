@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Prototipação física",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Impressoras 3D, outros maquinário e materiais para criar protótipos físicos e eletrônicos.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Software & digital",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Programação, design e ferramentas digitais para implementar sua solução.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Empreendedorismo & arte",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Tenha suporte para criar uma solução criativa e colocar no mercado.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Estrutura{" "}
             </span>
-            Services
+            esperada
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            O objetivo é ter estrutura o suficiente para o desenvolvimento de diversas soluções juntamente com a comunidade eachiana.
           </p>
 
           <div className="flex flex-col gap-8">
