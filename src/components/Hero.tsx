@@ -6,17 +6,19 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6">
-        <main className="text-5xl md:text-6xl font-bold">
-          <h1 className="inline text-[#009eca] drop-shadow-lg">
-            FabLab EACH
-          </h1>{" "}
+      <div className="text-center lg:text-start space-y-6 ">
+        <main className="text-5xl text-[#009eca] flex flex-col items-center text-center drop-shadow-lg md:text-6xl font-bold gap-4">
+          
+            <img src="../../public/logoeach.png" className="size-48"/>
+            <h1>FabLab EACH</h1>
+            <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
+          Traga sua ideia à vida!
+        </p>
+          {/* </h1>{" "} */}
           
         </main>
 
-        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Traga sua ideia à vida!
-        </p>
+        
 
       </div>
 

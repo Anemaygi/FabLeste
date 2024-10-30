@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Prototipe",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Tem uma ideia? Crie o protótipo dentro do FabLab com todo o suporte necessário.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Conecte",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+    "Conheça outros estudantes e profissionais com interesses parecidos e desenvolvam juntos!",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Aprenda",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Por meio de cursos, aprenda a utilizar maquinário, software e criar novas soluções.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Utilize",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Use o maquinário, software e materiais para criar os resultados que deseja.",
   },
 ];
 
@@ -41,11 +41,11 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Como o {" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          FabLab{" "}
         </span>
-        Step-by-Step Guide
+        pode me ajudar?
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
