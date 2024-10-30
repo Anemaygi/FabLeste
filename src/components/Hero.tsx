@@ -1,7 +1,4 @@
-import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import polaroid3 from '../../public/polaroid3.png'
 
 export const Hero = () => {
   return (
@@ -24,7 +21,14 @@ export const Hero = () => {
 
       {/* Hero cards sections */}
       <div className="z-10">
-        <HeroCards />
+      {/* <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]"> */}
+        
+        <img
+        src={polaroid3}
+        className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]"
+        />
+        
+        {/* <HeroCards /> */}
       </div>
 
       {/* Shadow effect */}

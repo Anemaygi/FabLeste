@@ -1,4 +1,4 @@
-import pilot from "../assets/pilot.png";
+import polaroid1 from "../../public/polaroid1.png"
 
 export const About = () => {
   return (
@@ -9,9 +9,9 @@ export const About = () => {
       <div className="bg-muted/50 border rounded-lg p-12 ">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
-            src={pilot}
+            src={polaroid1}
             alt=""
-            className="w-[200px] object-contain rounded-lg"
+            className="w-[150px] object-contain rounded-lg"
           />
           <div className="bg-green-0 flex flex-col justify-between items-center">
             <div className="">
