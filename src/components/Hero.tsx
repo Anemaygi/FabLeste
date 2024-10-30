@@ -1,4 +1,5 @@
 import polaroid3 from '../../public/polaroid3.png'
+import logoeach from '../../public/logoeach.png'
 
 export const Hero = () => {
   return (
@@ -6,7 +7,7 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6 ">
         <main className="text-5xl text-[#009eca] flex flex-col items-center text-center drop-shadow-lg md:text-6xl font-bold gap-4">
           
-            <img src="../../public/logoeach.png" className="size-48"/>
+            <img src={logoeach} className="size-48"/>
             <h1>FabLab EACH</h1>
             <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Traga sua ideia à vida!
