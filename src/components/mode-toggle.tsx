@@ -10,7 +10,7 @@ import { Moon, Sun } from "lucide-react";
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
-
+  setTheme("light")
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
