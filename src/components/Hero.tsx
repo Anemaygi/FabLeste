@@ -8,7 +8,7 @@ export const Hero = () => {
         <main className="text-5xl text-[#009eca] flex flex-col items-center text-center drop-shadow-lg md:text-6xl font-bold gap-4">
           
             <img src={logoeach} className="size-48"/>
-            <h1>FabLab EACH</h1>
+            <h1>FabLeste</h1>
             <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Traga sua ideia à vida!
         </p>

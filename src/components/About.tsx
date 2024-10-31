@@ -19,7 +19,7 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   Conheça{" "}
                 </span>
-                o FabLab!
+                o FabLeste!
               </h2>
               <p className="text-xl text-muted-foreground mt-2 p-4">
                 Os Fablabs são espaços de fabricação digital nos quais estudantes,

@@ -43,12 +43,12 @@ export const HowItWorks = () => {
       <h2 className="text-3xl md:text-4xl font-bold ">
         Como o {" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          FabLab{" "}
+          FabLeste{" "}
         </span>
         pode me ajudar?
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        O FabLab EACH tem como objetivo beneficiar a comunidade com a estrutura
+        O FabLeste tem como objetivo beneficiar a comunidade com a estrutura
         para incentivar todos os tipos de criação!
       </p>
 
